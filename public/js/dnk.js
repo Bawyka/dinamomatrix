@@ -27,7 +27,23 @@ $(function(){
 								
 								$(this).fadeOut(10000,function(){
 								
-									$(this).text('2014').delay(5000).fadeIn(20000);
+									$(this).text('2014').delay(5000).fadeIn(20000,function(){
+									
+										$(this).fadeOut(10000,function(){
+										
+											$(this).text('2017').delay(5000).fadeIn(20000,function(){
+											
+												$(this).fadeOut(10000,function(){
+												
+													$(this).text('Матриця').delay(5000).fadeIn(20000);
+												
+												});
+												
+											});
+										
+										});
+									
+									});
 								
 								});
 							
